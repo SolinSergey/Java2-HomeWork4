@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.homework.homework4/com.homework.homework4.HelloApplication</mainClass>
+                            <mainClass>com.homework.homework4/com.homework.homework4.HomeWork4</mainClass>
                         </configuration>
                     </execution>
                 </executions>
