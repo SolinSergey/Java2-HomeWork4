@@ -1,4 +1,4 @@
-package gb.homework4;
+package com.homework.homework4;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
