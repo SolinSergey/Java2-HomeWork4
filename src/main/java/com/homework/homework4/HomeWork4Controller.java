@@ -18,7 +18,11 @@ public class HomeWork4Controller {
     @FXML
     protected void onButtonClick() {
         String s = mainTextField.getText();
-        mainTextArea.appendText(s+"\n");
+        s = s.trim();
+        if (!s.equals("")){
+            mainTextArea.appendText(s+"\n");
+
+        }
         mainTextField.setText("");
     }
 }
